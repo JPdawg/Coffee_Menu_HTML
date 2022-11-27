@@ -1,0 +1,55 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "history_visible": true,
+      "authorship_tag": "ABX9TyN9x/kLZ0RSDUlBh0GkJ+7i",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JPdawg/Coffee_Menu_HTML/blob/main/Python%20Basics%20for%20Data%20Analysis\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "id": "65U4e4-TNl1x"
+      },
+      "outputs": [],
+      "source": [
+        "checkingAccount = 500\n",
+        "savingsAccount = 1000\n",
+        "\n",
+        "# add 100 to our savings \n",
+        "savingsAccount = savingsAccount +100\n",
+        "\n",
+        "#remove 50 from our checking account\n",
+        "checkingAccount = checkingAccount -50\n",
+        "\n",
+        "# calculate the number of days to save to reach 5000\n",
+        "numberDaysSave = (5000 -checkingAccount) / 500\n",
+        "\n",
+        "#update our checking account (again) after the daily gains/losses\n",
+        "checkingAccount = checkingAccount + (30-10) * 7"
+      ]
+    }
+  ]
+}
